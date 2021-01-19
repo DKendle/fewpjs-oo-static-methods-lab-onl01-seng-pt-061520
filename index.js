@@ -9,9 +9,6 @@ class Formatter {
     return str.replace(/[^A-Za-z0-9-\s']+/g, '');
   }
   static titleize(str){
-   let s = str.split(" ")
-   let notThese = ["the","a","an","but","of","and","for","at","by", "form"]
-   
-   
+   let o = str.split(" ")
   }
 }
